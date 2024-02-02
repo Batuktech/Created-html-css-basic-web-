@@ -1,0 +1,137 @@
+/* .maxwidth{
+    max-width:1280px;
+} */
+*{
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+    margin:0;
+    outline: none;
+	list-style: none;
+	text-decoration: none;
+}
+.nav{
+    margin:auto;
+    background-color:white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height:70px; 
+    max-width: 1280px;
+}
+.background{
+   background-color:white;
+}
+.nav3{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 600px;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.nav3 a{
+    color:#2c698d;
+}
+.logo{
+    width: 160px;
+    height: 65px;
+    display: flex;
+    margin-left: 20px;
+}
+.nav2{
+    position: relative;
+    left: 150px;
+}
+.call{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    margin-right:20px;
+    background-color:white;
+    width: 120px;
+    height: 40px;
+    border-radius: 31px;
+    font-size: 16px;
+    font-weight: 800;
+}
+li{
+    font-size: 16px;
+    margin: 0px 30px;
+    line-height: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    list-style: none;
+}
+.body{
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.background1{
+    padding-top: 30px;
+    background-color:white;
+    text-align: center;
+    background-image: url(./code.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.about{
+    background-color:#C7C8CC;
+    border-radius:5px;
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Intro{
+    width: 1280px;
+    height: 400px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px #272643;
+    opacity: .85;
+}
+.intro1{
+    padding: 15px;
+    font-size: 20px;
+    text-align:justify;
+    color: #272643;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 800;
+}
+.explain{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ul1 {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display:block;
+    text-align: center;
+    background-color:white;
+    border-width: 3px;
+    border-style:groove;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.ul1 li {
+    margin-top: 10px;
+    color: #2c698d;
+}
+
+.ul1 img {
+    max-width: 100%; 
+    height: auto; 
+    width: 100%; 
+    max-height: 150px; 
+}

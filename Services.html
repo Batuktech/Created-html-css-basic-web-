@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chimh Setgel</title>
+    <link rel="stylesheet"  href="/services.css"/>
+</head>
+<body>
+    <nav class="background">
+        <nav class="maxwidth nav">
+            <div class="logo">  
+                <img src="/Images of product/Screenshot_2024-01-28_025056-removebg-preview.png" alt="logo">
+            </div>
+            <div class="nav2">
+                <ul class="nav3">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="service"><a href="Services.html">Services</a></li>
+                    <li><a href="/product.html">About us</a></li>
+                    <li><a href="/Contact.html">Contact Us</a></li>
+                </ul> 
+            </div>
+            <div>
+                <p class="call"><a href="/sign.html">Login</a></p> 
+            </div>     
+        </nav>
+    </nav>
+    <nav>
+        <div class="sec1">
+            <p>Publish your donation project here!</p>
+        </div>
+    </nav>
+    <div class="sec2">
+        <div class="container">
+            <h1>Donation Form</h1>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="donation-type">Type of donation:</label>
+                    <select id="donation-type">
+                        <option value="clothes">Clothes</option>
+                        <option value="money">Money</option>
+                        <option value="essential-items">Essential items</option>
+                    </select>
+                    <p>Others</p>
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="upload-image">Image required!</label>
+                    <input type="file" id="upload-image" accept="image/*">
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
